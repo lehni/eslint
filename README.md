@@ -33,10 +33,10 @@ There are two ways to install ESLint: globally and locally.
 
 ### Local Installation and Usage
 
-If you want to include ESLint as part of your project's build system, we recommend installing it locally. You can do so using npm:
+If you want to include ESLint as part of your project's build system, we recommend installing it locally. You can do so using yarn:
 
 ```
-$ npm install eslint --save-dev
+$ yarn add --dev eslint@npm:eslint-nullish-coalescing
 ```
 
 You should then setup a configuration file:
