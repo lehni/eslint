@@ -75,6 +75,7 @@ function precedence(node) {
         case "LogicalExpression":
             switch (node.operator) {
                 case "||":
+                case "??":
                     return 4;
                 case "&&":
                     return 5;
